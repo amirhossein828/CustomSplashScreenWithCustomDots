@@ -19,10 +19,7 @@ import UIKit
     var numberOfShapes : Int = 0
     let cellId = "cellId"
     var arrayOfImages : [UIImage]?
-    
-    
-    
-    
+
     override public init(frame: CGRect) {
         super.init(frame: frame)
       
@@ -49,7 +46,6 @@ import UIKit
         super.init(coder: aDecoder)
             // setup the view
             setup()
-        
     }
     
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -57,8 +53,7 @@ import UIKit
         return self.numberOfShapes
     }
     
-    
-    
+  
     public func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
@@ -94,7 +89,7 @@ import UIKit
   
 }
 
-
+// Delegate changing of slides to CustomPageControl class.
 public protocol ChangeTheSlidesDelegate : class{
     func scrollToMenuIndex(menuIndex: Int)
 }
