@@ -17,7 +17,7 @@ public class Slides: UIView, UICollectionViewDelegate, UICollectionViewDataSourc
     // Properties
     let cellIdentifier = "Cell"
     var arrayOfSlides : [UIImage]?
-    public weak var delegate : CustomPageCntrolDelegate?
+    public weak var delegate : CustomPageControlDelegate?
     var arrayOfSlidesImages : [UIImage]?
     var arrayOfIconImages : [UIImage]?
     var numberOfIcons : Int = 0
@@ -98,7 +98,7 @@ extension Slides  : ChangeTheSlidesDelegate {
     
 }
 // Protocol which force the target view controller to have these two methods
-public protocol CustomPageCntrolDelegate : class {
+public protocol CustomPageControlDelegate : class {
     // How many Images do you need for custom page controll
     func numberOfShapes() -> Int
     // Give the images to slide pages

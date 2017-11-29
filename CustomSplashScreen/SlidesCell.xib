@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="HQ6-T8-3bc" customClass="SlidesCell" customModule="CustomSplashScreen">
+            <rect key="frame" x="0.0" y="0.0" width="154" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="154" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ccC-gj-paw">
+                        <rect key="frame" x="0.0" y="0.0" width="154" height="127"/>
+                        <color key="backgroundColor" red="0.15409881140000001" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.15409881140000001" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ccC-gj-paw" secondAttribute="bottom" id="HK9-my-lE3"/>
+                <constraint firstItem="ccC-gj-paw" firstAttribute="leading" secondItem="HQ6-T8-3bc" secondAttribute="leading" id="cfn-Dh-8Hn"/>
+                <constraint firstItem="ccC-gj-paw" firstAttribute="top" secondItem="HQ6-T8-3bc" secondAttribute="top" id="iOd-yJ-TUY"/>
+                <constraint firstAttribute="trailing" secondItem="ccC-gj-paw" secondAttribute="trailing" id="q1p-Zn-iqF"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="1SD-rk-iTq"/>
+            <size key="customSize" width="154" height="127"/>
+            <connections>
+                <outlet property="imageView" destination="ccC-gj-paw" id="XLW-eB-Jql"/>
+            </connections>
+            <point key="canvasLocation" x="89" y="-28.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

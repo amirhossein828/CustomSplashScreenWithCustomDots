@@ -14,7 +14,7 @@ import UIKit
     @IBOutlet public var contentView: UIView!
     @IBOutlet weak var collectionView: UICollectionView!
     // Properties
-    public weak var delegate : CustomPageCntrolDelegate?
+    public weak var delegate : CustomPageControlDelegate?
     public weak var changeSlidesDelegate : ChangeTheSlidesDelegate?
     var numberOfShapes : Int = 0
     let cellId = "cellId"

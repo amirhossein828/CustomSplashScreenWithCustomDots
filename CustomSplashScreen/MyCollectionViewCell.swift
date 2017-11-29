@@ -9,7 +9,7 @@
 import UIKit
 
 public class MyCollectionViewCell: UICollectionViewCell {
-    
+    // outlets
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var biggerImageView: UIImageView!
     

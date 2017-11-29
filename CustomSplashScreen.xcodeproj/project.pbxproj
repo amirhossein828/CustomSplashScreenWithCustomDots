@@ -12,10 +12,10 @@
 		9653DC741FCD199200709A36 /* Slides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653DC6B1FCD199200709A36 /* Slides.swift */; };
 		9653DC751FCD199200709A36 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653DC6C1FCD199200709A36 /* MyCollectionViewCell.swift */; };
 		9653DC771FCD199200709A36 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653DC6E1FCD199200709A36 /* CustomPageControl.swift */; };
-		9653DC981FCD3C2200709A36 /* CustomPageControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653DC951FCD33CB00709A36 /* CustomPageControl.xib */; };
-		9653DC991FCD3C2600709A36 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653DC931FCD33C400709A36 /* MyCollectionViewCell.xib */; };
-		9653DC9A1FCD3C2900709A36 /* SlidesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653DC911FCD33BD00709A36 /* SlidesCell.xib */; };
-		9653DC9B1FCD3C2C00709A36 /* Slides.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653DC8F1FCD33B400709A36 /* Slides.xib */; };
+		965C6B3B1FCE03C800D358E0 /* CustomPageControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965C6B3A1FCE03C800D358E0 /* CustomPageControl.xib */; };
+		965C6B3D1FCE03D500D358E0 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965C6B3C1FCE03D500D358E0 /* MyCollectionViewCell.xib */; };
+		965C6B3F1FCE03E500D358E0 /* Slides.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965C6B3E1FCE03E500D358E0 /* Slides.xib */; };
+		965C6B411FCE03EF00D358E0 /* SlidesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965C6B401FCE03EF00D358E0 /* SlidesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		9653DC6B1FCD199200709A36 /* Slides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slides.swift; sourceTree = "<group>"; };
 		9653DC6C1FCD199200709A36 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		9653DC6E1FCD199200709A36 /* CustomPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
-		9653DC8F1FCD33B400709A36 /* Slides.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Slides.xib; path = ../../TestFReal/CustomSplashScreen/Slides.xib; sourceTree = "<group>"; };
-		9653DC911FCD33BD00709A36 /* SlidesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SlidesCell.xib; path = ../../TestFReal/CustomSplashScreen/SlidesCell.xib; sourceTree = "<group>"; };
-		9653DC931FCD33C400709A36 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyCollectionViewCell.xib; path = ../../TestFReal/CustomSplashScreen/MyCollectionViewCell.xib; sourceTree = "<group>"; };
-		9653DC951FCD33CB00709A36 /* CustomPageControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomPageControl.xib; path = ../../TestFReal/CustomSplashScreen/CustomPageControl.xib; sourceTree = "<group>"; };
+		965C6B3A1FCE03C800D358E0 /* CustomPageControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomPageControl.xib; path = ../../../TestFReal/CustomSplashScreen/CustomPageControl.xib; sourceTree = "<group>"; };
+		965C6B3C1FCE03D500D358E0 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyCollectionViewCell.xib; path = ../../../TestFReal/CustomSplashScreen/MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		965C6B3E1FCE03E500D358E0 /* Slides.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Slides.xib; path = ../../../TestFReal/CustomSplashScreen/Slides.xib; sourceTree = "<group>"; };
+		965C6B401FCE03EF00D358E0 /* SlidesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SlidesCell.xib; path = ../../../TestFReal/CustomSplashScreen/SlidesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +64,11 @@
 			children = (
 				9653DC6E1FCD199200709A36 /* CustomPageControl.swift */,
 				9653DC6C1FCD199200709A36 /* MyCollectionViewCell.swift */,
-				9653DC951FCD33CB00709A36 /* CustomPageControl.xib */,
-				9653DC911FCD33BD00709A36 /* SlidesCell.xib */,
+				965C6B401FCE03EF00D358E0 /* SlidesCell.xib */,
+				965C6B3C1FCE03D500D358E0 /* MyCollectionViewCell.xib */,
+				965C6B3A1FCE03C800D358E0 /* CustomPageControl.xib */,
+				965C6B3E1FCE03E500D358E0 /* Slides.xib */,
 				9653DC6B1FCD199200709A36 /* Slides.swift */,
-				9653DC931FCD33C400709A36 /* MyCollectionViewCell.xib */,
-				9653DC8F1FCD33B400709A36 /* Slides.xib */,
 				9653DC691FCD199100709A36 /* SlidesCell.swift */,
 				9653DC601FCD194500709A36 /* CustomSplashScreen.h */,
 				9653DC611FCD194500709A36 /* Info.plist */,
@@ -146,10 +146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9653DC9B1FCD3C2C00709A36 /* Slides.xib in Resources */,
-				9653DC9A1FCD3C2900709A36 /* SlidesCell.xib in Resources */,
-				9653DC991FCD3C2600709A36 /* MyCollectionViewCell.xib in Resources */,
-				9653DC981FCD3C2200709A36 /* CustomPageControl.xib in Resources */,
+				965C6B3B1FCE03C800D358E0 /* CustomPageControl.xib in Resources */,
+				965C6B3D1FCE03D500D358E0 /* MyCollectionViewCell.xib in Resources */,
+				965C6B411FCE03EF00D358E0 /* SlidesCell.xib in Resources */,
+				965C6B3F1FCE03E500D358E0 /* Slides.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
