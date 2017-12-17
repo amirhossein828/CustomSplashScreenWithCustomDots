@@ -29,6 +29,8 @@ public class Slides: UIView, UICollectionViewDelegate, UICollectionViewDataSourc
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupView()
+        // test github
+        
     }
     
     public func setupView(){
