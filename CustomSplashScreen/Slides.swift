@@ -31,6 +31,7 @@ public class Slides: UIView, UICollectionViewDelegate, UICollectionViewDataSourc
         setupView()
         // test github
         // test2 github
+        // test3 github
     }
     
     public func setupView(){
