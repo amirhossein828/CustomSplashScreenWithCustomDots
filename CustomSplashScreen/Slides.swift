@@ -30,7 +30,7 @@ public class Slides: UIView, UICollectionViewDelegate, UICollectionViewDataSourc
         super.init(coder: aDecoder)
         setupView()
         // test github
-        
+        // test2 github
     }
     
     public func setupView(){
